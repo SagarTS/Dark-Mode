@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="dark.css">
+    <title>Animation on Scroll</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="nav">
+            <div class="logo">
+                <h4>HealthCare.</h4>
+                <!-- <button class="dark-btn">Dark</button> -->
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <div class="links">
+                <a href="#" style = "color: orange">Corona Updates</a>
+                <a id='link' href="#">Help</a>
+                <a id='link' href="#">About</a>
+                <a id='link' href="#">Contact</a>
+            </div>
+        </div>      
+        
+
+        <!-- Landing Page -->
+        <div class="page">
+            <div class="text" data-aos='fade-up' data-aos-duration='1000'>
+                <h1>Stay In.<span> Stay Safe</span></h1>
+                <p>We are on war with corona.<br>Let's win this together.</p>
+                <div class="btn">
+                    <a href="#">Learn More</a>
+                </div>   
+            </div>
+
+            <img src="images/stay safe.png" data-aos='fade-down' data-aos-duration='2000' alt="">
+            
+        </div>
+
+        <!-- ABOUT PAGE -->
+        <div class="about">
+            <div class="about-text" data-aos='fade-up' data-aos-duration='1000'>
+                <h1>Why is it important that <br><span>You Stay Home?</span></h1>
+                <img src="images/doctor.png" alt="">
+            </div>
+
+            
+
+            <div class="list" data-aos='fade-left' data-aos-duration='1000'>
+                <ol>
+                    <li>
+                        <span>01</span>
+                        <p id='para'>Covid-19 which is now a fast growing
+                            global pandemic. The number of confirmed
+                            cases worldwide has exceeded 25,65,000 due
+                            to rapid spreading of the virus.
+                        </p>
+                    </li>
+                    <li>
+                        <span>02</span>
+                        <p id='para'>Covid-19, spreads very easily, much easier than many
+                            other regular illnesses we deal with on a
+                            regular basis. Thst's waht makes it so
+                            dangerous
+                        </p>
+                    </li>
+                    <li>
+                        <span>03</span>
+                        <p id='para'>The best course of action is to stay at home 
+                            prevent the spread of the disease as well
+                            as hospitals getting overwhelmed with patients
+                            who simply shouldn't be there
+                        </p>
+                    </li>
+                    <li>
+                        <span>04</span>
+                        <p id='para'>As of today, there is no know cure and no approved vaccine for Covid-19
+                        </p>
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+
+        <!-- Info Section  -->
+
+        <div class="info">
+            <div class="infotitle" data-aos='fade-up' data-aos-duration='1000'>
+                <h1>Things you could do during the <br><span>Coronavirus Quarantine</span><h1>
+            </div>
+
+            <div class="infocard">
+                <div class="card one" data-aos='fade-up' data-aos-duration='1000'>
+                    <div class="box"></div>
+                    <div class="content" data-aos='fade-up' data-aos-duration='1000'>
+                        <h2>Netflix</h2>
+                        <p>Netflix & Chill</p>
+                    </div>
+                    <div class="cardbtn">
+                        <img src="images/next.png" alt="" class="btn">
+                    </div>                   
+
+                    <img src="images/lady.png" alt="" class="lady" data-aos='fade-up' data-aos-duration='1100'>
+                </div>
+
+                <div class="card two" data-aos='fade-up' data-aos-duration='1000'>
+                    <div class="box"></div>
+                    <div class="content" data-aos='fade-up' data-aos-duration='1000'>
+                        <h2>Learn a New Skill</h2>
+                        <p>Try a new recipe, Write a blog or Learn a new language this Quarantine!</p>
+                    </div>
+                    <div class="cardbtn">
+                        <img src="images/next.png" alt="" class="btn">
+                    </div>                   
+
+                    <img src="images/think.png" alt="" class="think" data-aos='fade-up' data-aos-duration='1200'>
+                </div>
+           
+
+                <div class="card one" data-aos='fade-up' data-aos-duration='1000'>
+                    <div class="box"></div>
+                    <div class="content" data-aos='fade-up' data-aos-duration='1000'>
+                        <h2>Video Call</h2>
+                        <p>Have fun videocalling your friends or family this Quarantine!</p>
+                    </div>
+                    <div class="cardbtn">
+                        <img src="images/next.png" alt="" class="btn">
+                    </div>                   
+
+                    <img src="images/laptop.png" alt="" class="lady" data-aos='fade-up' data-aos-duration='1300'>
+                </div>
+            </div>
+        </div>
+
+        <!-- Last Page -->
+
+        <div class="last">            
+                <div class="left-text" data-aos='fade-right' data-aos-duration='1000'>
+                    <h1>Download the HealthCare App Today.</h1>
+                    <h3>Stay Updated and get all your medical needs taken care of!</h3>
+                    <img src="images/google.png" alt="">
+                    <img src="images/apple.png" alt="">
+                </div>
+
+
+            <img class='mob' src="images/mobile.png" alt="" data-aos='fade-up' data-aos-duration='1000'>
+
+        </div>
+
+
+        <!-- Footer -->
+
+        <div class="footer">
+            <h2>HealthCare.</h2>
+            <div class="footerlinks">
+                <a href="#" style='color: orange'>Corona Updated</a>
+                <a href="#">Help</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </div>           
+        </div>
+
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <!-- <script src="style.js"></script> -->
+    <script src="dark.js"></script>
+
+</body>
+</html>
